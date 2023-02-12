@@ -1,0 +1,158 @@
+body {
+    background-color: #4AA0E0;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+hr {
+    border-top: 1px solid #E06460;
+    width: 30%;
+}
+
+.discographyEntry h3 {
+    font-weight: 100;
+}
+
+.discographyEntry span{
+    color: #E06460;
+}
+
+@media (max-width: 1400px) {
+    .discographyEntry h3{
+        font-weight: 100;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .discographyEntry h3{
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .discographyEntry p{
+        font-weight: 100;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .discographyEntry p{
+        font-weight: 100;
+        font-size: 1rem;
+    }
+}
+
+.row{
+    margin-right:0;
+}
+
+.socialIcon{
+    width:auto;
+    height: 3rem;
+}
+
+.socialIconMini{
+    width:auto;
+    height: 2rem;
+}
+
+.header{
+    background-color: #428DC7;
+}
+
+.blurb h2 {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.navScroll {
+    background: #4578F7;
+    transition: background 200ms;
+}
+
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .navbar-toggler {
+    border: none;
+}
+
+#mainNav .nav-link{
+    color: #FFFFFF;
+}
+
+#mainNav .nav-link:hover{
+    color: #E06460;
+}
+
+#mainNav .active .nav-link{
+    color: #dddddd;
+}
+
+#mainNav .navbar-brand {
+    color: #E06460;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .dropdown-menu {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+    margin-top: -0.5em;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .dropdown-item {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+    margin-left: -0.7em;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .dropdown-item:hover {
+    color: #E06460;
+}
+
+#headingGroup span{
+    color: #E06460;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+@media (max-width: 1400px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
