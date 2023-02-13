@@ -17,6 +17,10 @@ hr {
     color: #E06460;
 }
 
+.discographyHeader{
+    margin-top: 5%;
+}
+
 @media (max-width: 1400px) {
     .discographyEntry h3{
         font-weight: 100;
